@@ -34,9 +34,14 @@ dist/
 # Database
 *.sqlite3
 
-# Data (optional)
-data/raw/
-data/processed/
+# Data
+data/raw/*.csv
+data/raw/*.zip
+
+data/processed/*.csv
+data/processed/*.parquet
+
+data/external/*
 
 # Model Files (optional)
 models/*.pkl
