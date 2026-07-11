@@ -1,0 +1,55 @@
+.
+├── .DS_Store
+├── .gitignore
+├── README.md
+├── data
+│   ├── external
+│   │   └── .gitkeep
+│   ├── preprocess
+│   ├── processed
+│   │   ├── .gitkeep
+│   │   ├── X_test.csv
+│   │   ├── X_train.csv
+│   │   ├── creditcard_cleaned.csv
+│   │   ├── creditcard_feature_engineered.csv
+│   │   ├── y_test.csv
+│   │   └── y_train.csv
+│   └── raw
+│       ├── .gitkeep
+│       └── creditcard.csv
+├── download_dataset.py
+├── models
+│   ├── decision_tree.pkl
+│   ├── label_encoders.pkl
+│   ├── logistic_regression.pkl
+│   ├── logistic_regression_smote.pkl
+│   ├── random_forest_class_weights.pkl
+│   └── xgboost_model.pkl
+├── notebooks
+│   ├── 01_exploratory_data_analysis.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_train_test_split.ipynb
+│   ├── 05_logistic_regression.ipynb
+│   ├── 06_decision_tree.ipynb
+│   ├── 07_random_forest.ipynb
+│   ├── 08_model_comparison.ipynb
+│   ├── 09a_smote.ipynb
+│   ├── 09b_random_undersampling.ipynb
+│   ├── 09c_class_weights.ipynb
+│   ├── 09d_imbalance_comparison.ipynb
+│   └── 10_xgboost.ipynb
+├── project_tree.txt
+├── requirements.txt
+├── results
+│   ├── decision_tree_metrics.csv
+│   ├── imbalance_comparison.csv
+│   ├── logistic_regression_metrics.csv
+│   ├── random_forest_class_weights_metrics.csv
+│   ├── random_forest_metrics.csv
+│   ├── random_forest_random_undersampling_metrics.csv
+│   ├── random_forest_smote_metrics.csv
+│   └── xgboost_metrics.csv
+└── test.py
+
+9 directories, 44 files
