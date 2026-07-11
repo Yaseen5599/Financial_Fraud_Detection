@@ -35,6 +35,8 @@
 │       └── creditcard.csv
 ├── download_dataset.py
 ├── models
+│   ├── best_model.pkl
+│   ├── best_model_metadata.json
 │   ├── decision_tree.pkl
 │   ├── label_encoders.pkl
 │   ├── logistic_regression.pkl
@@ -60,7 +62,9 @@
 │   ├── 09d_imbalance_comparison.ipynb
 │   ├── 10_xgboost.ipynb
 │   ├── 11_hyperparameter_tuning.ipynb
-│   └── 12_final_model_comparison.ipynb
+│   ├── 12_final_model_comparison.ipynb
+│   ├── 13_save_best_model.ipynb
+│   └── 14_apache_spark_basics.ipynb
 ├── project_tree.txt
 ├── requirements.txt
 ├── results
@@ -79,4 +83,4 @@
 │   └── xgboost_tuned_metrics.csv
 └── test.py
 
-13 directories, 67 files
+13 directories, 71 files
