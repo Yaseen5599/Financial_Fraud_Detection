@@ -1,0 +1,5 @@
+Actual,Predicted,Count
+Genuine,Genuine,56648
+Genuine,Fraud,3
+Fraud,Genuine,26
+Fraud,Fraud,69

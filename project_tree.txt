@@ -1,8 +1,8 @@
 .
-├── .DS_Store
-├── .gitignore
 ├── README.md
 ├── artifacts
+│   ├── checkpoints
+│   │   └── realtime_prediction
 │   ├── plots
 │   │   ├── final_model_ranking.png
 │   │   ├── model_accuracy_comparison.png
@@ -18,12 +18,28 @@
 │   │   └── xgboost_tuned_roc_curve.png
 │   ├── reports
 │   └── shap
+├── checkpoints
+│   ├── postgres_writer
+│   │   ├── commits
+│   │   ├── metadata
+│   │   ├── offsets
+│   │   └── sources
+│   ├── prediction_consumer
+│   │   ├── commits
+│   │   ├── metadata
+│   │   ├── offsets
+│   │   └── sources
+│   └── prediction_publisher
+│       ├── commits
+│       ├── metadata
+│       ├── offsets
+│       └── sources
+├── dashboard
+│   └── Fraud_Detection_Dashboard.pbix
 ├── data
 │   ├── external
-│   │   └── .gitkeep
 │   ├── preprocess
 │   ├── processed
-│   │   ├── .gitkeep
 │   │   ├── X_test.csv
 │   │   ├── X_train.csv
 │   │   ├── creditcard_cleaned.csv
@@ -31,7 +47,6 @@
 │   │   ├── y_test.csv
 │   │   └── y_train.csv
 │   └── raw
-│       ├── .gitkeep
 │       └── creditcard.csv
 ├── docker-compose.yml
 ├── download_dataset.py
@@ -67,7 +82,11 @@
 │   ├── 13_save_best_model.ipynb
 │   ├── 14_apache_spark_basics.ipynb
 │   ├── 15_kafka_producer.ipynb
-│   └── 16_spark_kafka_consumer.ipynb
+│   ├── 16_spark_kafka_consumer.ipynb
+│   ├── 17_real_time_fraud_prediction.ipynb
+│   ├── 18_stream_predictions_to_kafka.ipynb
+│   ├── 19_fraud_predictions_consumer.ipynb
+│   └── 20_postgresql_writer.ipynb
 ├── project_tree.txt
 ├── requirements.txt
 ├── results
@@ -84,6 +103,8 @@
 │   ├── xgboost_comparison.csv
 │   ├── xgboost_metrics.csv
 │   └── xgboost_tuned_metrics.csv
+├── sql
+│   └── 01_create_tables.sql
 └── test.py
 
-13 directories, 74 files
+30 directories, 78 files

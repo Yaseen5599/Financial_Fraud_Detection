@@ -1,0 +1,16 @@
+{
+    "Model": "RandomForestClassifier",
+    "Generated On": "2026-07-12 22:42:32",
+    "Testing Samples": 56746,
+    "Features": 33,
+    "Metrics": {
+        "Accuracy": 0.9994889507630493,
+        "Balanced Accuracy": 0.8631314168282438,
+        "Precision": 0.9583333333333334,
+        "Recall": 0.7263157894736842,
+        "F1 Score": 0.8263473053892215,
+        "ROC-AUC": 0.9438932187753457,
+        "Log Loss": 0.007981788971904243,
+        "Matthews Correlation": 0.8340675625483596
+    }
+}
