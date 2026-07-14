@@ -50,3 +50,6 @@ models/*.joblib
 # Temporary files
 *.tmp
 *.bak
+
+# Replay datasets
+data/replay/*.csv

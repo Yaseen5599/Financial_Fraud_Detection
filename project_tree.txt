@@ -1,8 +1,9 @@
 .
+├── .gitignore
+├── .vscode
+│   └── settings.json
 ├── README.md
 ├── artifacts
-│   ├── checkpoints
-│   │   └── realtime_prediction
 │   ├── plots
 │   │   ├── final_model_ranking.png
 │   │   ├── model_accuracy_comparison.png
@@ -18,36 +19,25 @@
 │   │   └── xgboost_tuned_roc_curve.png
 │   ├── reports
 │   └── shap
-├── checkpoints
-│   ├── postgres_writer
-│   │   ├── commits
-│   │   ├── metadata
-│   │   ├── offsets
-│   │   └── sources
-│   ├── prediction_consumer
-│   │   ├── commits
-│   │   ├── metadata
-│   │   ├── offsets
-│   │   └── sources
-│   └── prediction_publisher
-│       ├── commits
-│       ├── metadata
-│       ├── offsets
-│       └── sources
 ├── dashboard
 │   └── Fraud_Detection_Dashboard.pbix
 ├── data
 │   ├── external
+│   │   └── .gitkeep
 │   ├── preprocess
 │   ├── processed
+│   │   ├── .gitkeep
 │   │   ├── X_test.csv
 │   │   ├── X_train.csv
 │   │   ├── creditcard_cleaned.csv
 │   │   ├── creditcard_feature_engineered.csv
 │   │   ├── y_test.csv
 │   │   └── y_train.csv
-│   └── raw
-│       └── creditcard.csv
+│   ├── raw
+│   │   ├── .gitkeep
+│   │   └── creditcard.csv
+│   └── replay
+│       └── creditcard_replay.csv
 ├── docker-compose.yml
 ├── download_dataset.py
 ├── models
@@ -86,7 +76,21 @@
 │   ├── 17_real_time_fraud_prediction.ipynb
 │   ├── 18_stream_predictions_to_kafka.ipynb
 │   ├── 19_fraud_predictions_consumer.ipynb
-│   └── 20_postgresql_writer.ipynb
+│   ├── 20_postgresql_writer.ipynb
+│   ├── 21_generate_powerbi_assets.ipynb
+│   ├── 22_prepare_replay_dataset.ipynb
+│   └── 23_dataset_replay_producer.ipynb
+├── powerbi_assets
+│   ├── classification_report.csv
+│   ├── confusion_matrix.csv
+│   ├── dashboard_summary.json
+│   ├── feature_importance.csv
+│   ├── metrics.csv
+│   ├── model_info.csv
+│   ├── precision_recall_curve.csv
+│   ├── precision_recall_curve.png
+│   ├── roc_curve.csv
+│   └── roc_curve.png
 ├── project_tree.txt
 ├── requirements.txt
 ├── results
@@ -107,4 +111,4 @@
 │   └── 01_create_tables.sql
 └── test.py
 
-30 directories, 78 files
+18 directories, 94 files
