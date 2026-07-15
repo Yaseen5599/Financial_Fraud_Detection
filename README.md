@@ -87,7 +87,7 @@ The system:
 # 🏗 System Architecture
 
 <p align="center">
-<img src="images/architecture.png" width="100%">
+<img src="images/Architecture.png" width="100%">
 </p>
 
 ---
@@ -95,7 +95,7 @@ The system:
 # ⚡ End-to-End Pipeline Workflow
 
 <p align="center">
-<img src="images/pipeline_workflow.png" width="100%">
+<img src="images/Pipeline Flow.png" width="100%">
 </p>
 
 ---
@@ -214,7 +214,7 @@ Power BI Dashboard
 ## Executive Dashboard
 
 <p align="center">
-<img src="images/executive_dashboard.png" width="95%">
+<img src="images/Executive Overview.png" width="95%">
 </p>
 
 Features:
@@ -231,7 +231,7 @@ Features:
 ## Transaction Trends
 
 <p align="center">
-<img src="images/transaction_trends.png" width="95%">
+<img src="images/Transaction Trends.png" width="95%">
 </p>
 
 Includes:
@@ -246,7 +246,7 @@ Includes:
 ## Risk Monitoring
 
 <p align="center">
-<img src="images/risk_monitoring.png" width="95%">
+<img src="images/Risk Monitoring.png" width="95%">
 </p>
 
 Includes:
@@ -261,7 +261,7 @@ Includes:
 ## Model Performance
 
 <p align="center">
-<img src="images/model_performance.png" width="95%">
+<img src="images/Model Perfomance.png" width="95%">
 </p>
 
 Includes:
