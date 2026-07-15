@@ -81,6 +81,7 @@
 │   ├── 22_prepare_replay_dataset.ipynb
 │   └── 23_dataset_replay_producer.ipynb
 ├── powerbi_assets
+│   ├── Thumbs.db
 │   ├── classification_report.csv
 │   ├── confusion_matrix.csv
 │   ├── dashboard_summary.json
@@ -111,4 +112,4 @@
 │   └── 01_create_tables.sql
 └── test.py
 
-18 directories, 94 files
+18 directories, 95 files
