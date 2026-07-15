@@ -15,21 +15,13 @@
 ## End-to-End Real-Time Financial Fraud Detection using Machine Learning, Apache Spark, Apache Kafka, PostgreSQL, Docker & Power BI
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
-
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)](https://scikit-learn.org/)
-
 [![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-green)](https://xgboost.readthedocs.io/)
-
 [![Apache Spark](https://img.shields.io/badge/Apache-Spark-red?logo=apachespark)](https://spark.apache.org/)
-
 [![Apache Kafka](https://img.shields.io/badge/Apache-Kafka-black?logo=apachekafka)](https://kafka.apache.org/)
-
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)](https://www.postgresql.org/)
-
 [![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)](https://powerbi.microsoft.com/)
-
 [![Docker](https://img.shields.io/badge/Docker-Container-2496ED?logo=docker)](https://www.docker.com/)
-
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 </div>
