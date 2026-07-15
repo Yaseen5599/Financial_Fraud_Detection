@@ -1,13 +1,11 @@
 # 💳 Financial Fraud Detection System
 
 <p align="center">
-  <img src="images/demo.gif" width="100%">
-</p>
+<a href="https://github.com/Yaseen5599/Financial_Fraud_Detection/raw/main/videos/demo.mp4">
+<img src="images/demo_thumbnail.png" width="900">
+</a>
 
-<p align="center">
-  <a href="videos/demo.mp4">
-      🎥 Watch Full HD Demo
-  </a>
+**▶ Click the image to watch the Full HD Demo**
 </p>
 
 <div align="center">
