@@ -14,7 +14,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)](https://scikit-learn.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-green)](https://xgboost.readthedocs.io/)
+[![Random Forest](https://img.shields.io/badge/Random%20Forest-Class%20Weights-success)](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 [![Apache Spark](https://img.shields.io/badge/Apache-Spark-red?logo=apachespark)](https://spark.apache.org/)
 [![Apache Kafka](https://img.shields.io/badge/Apache-Kafka-black?logo=apachekafka)](https://kafka.apache.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)](https://www.postgresql.org/)
@@ -36,7 +36,7 @@ The system:
 
 - trains and evaluates multiple ML models
 - handles highly imbalanced fraud data
-- selects the best-performing model
+- evaluates multiple machine learning models and deploys the best-performing Random Forest (Class Weights) model
 - streams transactions through Kafka
 - predicts fraud in real time using Spark
 - stores predictions in PostgreSQL
@@ -48,14 +48,13 @@ The system:
 
 ### Machine Learning
 
-- Exploratory Data Analysis
-- Feature Engineering
-- Handling Imbalanced Data
-- Random Forest
-- XGBoost
+- Random Forest (Baseline)
+- Random Forest (Class Weights) ⭐ Final Production Model
+- Random Forest with SMOTE
+- Random Forest with Random Undersampling
+- XGBoost Model Comparison
 - Hyperparameter Tuning
 - Best Model Selection
-- Model Serialization
 
 ### Real-Time Streaming
 
@@ -103,7 +102,7 @@ The system:
 | Category | Technologies |
 |------------|-------------------------------|
 | Language | Python |
-| Machine Learning | Scikit-Learn, XGBoost |
+| Machine Learning | Scikit-Learn (Random Forest), XGBoost |
 | Streaming | Apache Kafka |
 | Stream Processing | Apache Spark Structured Streaming |
 | Database | PostgreSQL |
@@ -170,13 +169,13 @@ Model Training
 Hyperparameter Tuning
       │
       ▼
-Best Model Selection
+Best Model Selection(Random Forest - Class Weights)
       │
       ▼
-Saved Model (.pkl)
+Saved Production Model (.pkl)
 ```
-
 ---
+
 
 # ⚡ Streaming Pipeline
 
@@ -193,6 +192,9 @@ fraud-transactions
 Spark Structured Streaming
         │
         ▼
+Random Forest (Class Weights)
+        │
+        ▼
 Fraud Prediction
         │
         ▼
@@ -206,6 +208,22 @@ Power BI Dashboard
 ```
 
 ---
+
+# 🏆 Final Production Model
+
+Several machine learning approaches were evaluated during this project, including:
+
+- Random Forest (Baseline)
+- Random Forest (Class Weights) ✅
+- Random Forest with SMOTE
+- Random Forest with Random Undersampling
+- XGBoost
+
+After comparing all models using Accuracy, Precision, Recall, F1 Score, ROC-AUC, Balanced Accuracy, Matthews Correlation Coefficient (MCC), and Log Loss, **Random Forest (Class Weights)** was selected as the final production model.
+
+This model provides the best balance between fraud detection performance, robustness on highly imbalanced data, and real-time deployment efficiency. It is therefore deployed in the Apache Spark Structured Streaming pipeline to generate live fraud predictions that are stored in PostgreSQL and visualized through Power BI dashboards.
+
+
 
 # 📊 Power BI Dashboard
 
