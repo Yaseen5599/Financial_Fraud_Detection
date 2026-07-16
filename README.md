@@ -84,7 +84,7 @@ The system:
 # 🏗 System Architecture
 
 <p align="center">
-<img src="images/Architecture.png" width="100%">
+<img src="images/architecture.png" width="100%">
 </p>
 
 ---
@@ -92,7 +92,7 @@ The system:
 # ⚡ End-to-End Pipeline Workflow
 
 <p align="center">
-<img src="images/Pipeline Flow.png" width="100%">
+<img src="images/pipeline_flow.png" width="100%">
 </p>
 
 ---
