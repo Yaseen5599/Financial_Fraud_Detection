@@ -211,6 +211,7 @@ Power BI Dashboard
 
 # 🏆 Final Production Model
 
+```
 Several machine learning approaches were evaluated during this project, including:
 
 - Random Forest (Baseline)
@@ -222,8 +223,8 @@ Several machine learning approaches were evaluated during this project, includin
 After comparing all models using Accuracy, Precision, Recall, F1 Score, ROC-AUC, Balanced Accuracy, Matthews Correlation Coefficient (MCC), and Log Loss, **Random Forest (Class Weights)** was selected as the final production model.
 
 This model provides the best balance between fraud detection performance, robustness on highly imbalanced data, and real-time deployment efficiency. It is therefore deployed in the Apache Spark Structured Streaming pipeline to generate live fraud predictions that are stored in PostgreSQL and visualized through Power BI dashboards.
-
-
+```
+---
 
 # 📊 Power BI Dashboard
 
