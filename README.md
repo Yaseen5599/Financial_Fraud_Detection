@@ -334,6 +334,40 @@ Includes:
 
 ---
 
+# 🧠 AI Explainability Center
+
+<p align="center">
+<img src="images/AI Model Explainability Center.png" width="95%">
+</p>
+
+Features:
+
+- Transaction-level Explainability
+- SHAP Feature Contributions
+- Fraud Probability
+- Prediction
+- Actual Class
+- Risk Level
+- Recommendation
+- Local Feature Importance
+- Offline Test Dataset Analysis
+
+---
+
+## 🔍 Explainability Outputs
+
+Notebook 24 generates multiple explainability artifacts, including:
+
+- SHAP Global Feature Importance
+- SHAP Beeswarm Plot
+- Transaction Explainability Report
+- Executive Explainability Summary
+- Model Card
+- Feature Importance Rankings
+- Power BI Explainability Assets
+
+---
+
 # 📌 Project Outcomes
 
 ✔ Built an end-to-end fraud detection pipeline from data preprocessing to deployment.
@@ -438,40 +472,6 @@ Open the Power BI report and click **Refresh** to display the latest predictions
 - Automated Retraining
 - Real-Time SHAP Explainability
 - Grafana Monitoring
-
----
-
-# 🧠 AI Explainability Center
-
-<p align="center">
-<img src="images/AI Model Explainability Center.png" width="95%">
-</p>
-
-Features:
-
-- Transaction-level Explainability
-- SHAP Feature Contributions
-- Fraud Probability
-- Prediction
-- Actual Class
-- Risk Level
-- Recommendation
-- Local Feature Importance
-- Offline Test Dataset Analysis
-
----
-
-## 🔍 Explainability Outputs
-
-Notebook 24 generates multiple explainability artifacts, including:
-
-- SHAP Global Feature Importance
-- SHAP Beeswarm Plot
-- Transaction Explainability Report
-- Executive Explainability Summary
-- Model Card
-- Feature Importance Rankings
-- Power BI Explainability Assets
 
 ---
 
