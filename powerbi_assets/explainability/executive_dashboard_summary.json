@@ -1,0 +1,13 @@
+{
+    "Model": "Random Forest (Class Weights)",
+    "Algorithm": "Random Forest",
+    "Transactions": 56746,
+    "Fraud_Predictions": 72,
+    "Genuine_Predictions": 56674,
+    "Critical_Risk": 47,
+    "High_Risk": 21,
+    "Medium_Risk": 9,
+    "Low_Risk": 56669,
+    "Average_Fraud_Probability": 0.001881,
+    "Generated_On": "2026-07-19 12:45:57"
+}
